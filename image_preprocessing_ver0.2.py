@@ -2,7 +2,7 @@ from PIL import Image
 import numpy as np
 import glob
 
-paths = glob.glob("E:\\2024 SONG\\MachineLearning\\discriminator\\gender\\F\\*\\*.jpg")
+paths = glob.glob("E:MachineLearning\\discriminator\\gender\\F\\*\\*.jpg")
 
 # 모든 이미지를 동일한 크기로 조정할 새로운 크기 지정
 new_size = (200, 200)
