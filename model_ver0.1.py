@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import tensorflow as tf 
 
-paths = glob.glob("E:\\2024 SONG\\MachineLearning\\discriminator\\gender\\preprocessed\\*\\*.jpg")
+paths = glob.glob("E:\\MachineLearning\\discriminator\\gender\\preprocessed\\*\\*.jpg")
 paths = np.random.permutation(paths)
 indipendent_v = np.array([plt.imread(paths[i]) for i in range(len(paths))])
 subordination_v = np.array([paths[i].split('\\')[-2] for i in range(len(paths))])
